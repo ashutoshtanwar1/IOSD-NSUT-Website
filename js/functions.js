@@ -15,13 +15,14 @@ owl.owlCarousel({
   autoplayTimeout: 2000,
   autoplayHoverPause: false,
   responsiveClass: true,
+  // stagePadding: 2,
   responsive: {
     0: {
       items: 1,
       nav: true
     },
     600: {
-      items: 3,
+      items: 4,
       nav: false
     }
   }
